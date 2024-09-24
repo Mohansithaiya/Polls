@@ -125,7 +125,7 @@ urlpatterns = [
 ]
 ```
 ## OUTPUT
-```
+
 ![alt text](<Screenshot 2024-09-24 222908.png>)
 ```
 ```
@@ -136,7 +136,7 @@ urlpatterns = [
 ```
 ```
 ![alt text](<Screenshot 2024-09-24 225923.png>)
-```
+
 ## COURSERA GRADE
 ![alt text](<Screenshot 2024-09-24 225256.png>)
 ## RESULT
