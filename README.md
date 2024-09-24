@@ -27,7 +27,7 @@ from django.contrib import admin
 
 from .models import Choice, Question
 
-admin.site.register(Question, QuestionAdmin)
+admin.site.register(Question)
 
  ```
 
@@ -37,10 +37,7 @@ admin.site.register(Question, QuestionAdmin)
 from django.db import models
 import datetime
 
-from django.db import models
 from django.utils import timezone
-from django.contrib import admin
-
 
 class Question(models.Model):
     question_text = models.CharField(max_length=200)
@@ -65,7 +62,6 @@ from django.http import HttpResponseRedirect, HttpResponse
 from django.shortcuts import get_object_or_404, render
 from django.urls import reverse
 from django.views import generic
-from django.utils import timezone
 
 from .models import Choice, Question
 
